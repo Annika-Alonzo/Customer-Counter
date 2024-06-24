@@ -1,0 +1,84 @@
+body {
+    background-image: url("assets/people.jpg");
+    background-size: cover;
+    height: 98vh;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    max-width: 75%;
+    height: 75vh;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.wrapper {
+    position: relative;
+    top: 17%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.increment-btn {
+    background-color: rgb(52, 115, 156);
+}
+
+.increment-btn:hover {
+    background-color: white;
+    color: rgb(52, 115, 156);
+}
+
+.save-btn {
+    background-color: rgb(19, 109, 19);
+}
+
+.save-btn:hover {
+    background-color: white;
+    color: rgb(19, 109, 19);
+}
+
+.refresh-btn {
+    background-color: rgb(182, 52, 78);
+    margin-top: 40px;
+}
+
+.refresh-btn:hover {
+    background-color: white;
+    color: rgb(182, 52, 78);
+}
